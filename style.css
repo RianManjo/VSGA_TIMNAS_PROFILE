@@ -1,0 +1,111 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pathway Extreme, sans-serif;
+}
+
+.navbar {
+    height: 102px;
+    backdrop-filter: blur(70px);
+}
+
+.navbar.fixed-top {
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+.menu .list-menu {
+    list-style: none;
+}
+
+.menu .list-menu a {
+    color: #374E9D;
+    font-family: Pathway Extreme, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btn-navbar {
+    background-color: #FCCC00;
+    border: none;
+    border-radius: 120px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Pathway Extreme, sans-serif;
+    font-weight: 500;
+    height: 48px;
+    width: 161px;
+}
+/* Navbar Selesai */
+
+/* Section One */
+.section-one .title {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-one .sub-title {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* Section Two */
+.section-two {
+    background-color: #374E9D;    
+}
+
+.section-two a {
+    text-decoration: none;
+}
+.section-two .card{
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.section-two .card img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;   
+    background-size: cover;
+    
+}
+
+.section-two .card .title {
+    font-size: 16px;
+    text-decoration: none;
+    color: #374E9D;
+    font-family: Pathway Extreme, sans-serif;
+    margin-top: 25px;
+}
+
+.profile {
+    background-color: red;
+    width: 500px;
+    height: 400px;
+}
+
+.galeri .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #374E9D;    
+    border-bottom: 2px solid #374E9D;
+}
+
+.galeri .card {
+    width: 305px;
+    height: 311px;
+}
+
+.card-text {
+    font-size: 14px;
+}
